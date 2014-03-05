@@ -46,7 +46,7 @@ wallpaper('img/wallpaper20.jpg');
 }else if(h==21){
 wallpaper('img/wallpaper21.jpg');
 }else if(h==22){
-wallpaper('img/wallpaper23.jpg');
+wallpaper('img/wallpaper22.jpg');
 }else{
 wallpaper('img/wallpaper23.jpg');
 }
