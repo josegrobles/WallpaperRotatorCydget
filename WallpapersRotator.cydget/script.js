@@ -52,5 +52,5 @@ wallpaper('img/wallpaper23.jpg');
 }
 //SET BACKGROUND
 function wallpaper(link){
-document.getElementById("body").style.backgroundImage = "url('"+link+"')";}
+document.getElementById("background").style.background = "url('"+link+"')";}
 
