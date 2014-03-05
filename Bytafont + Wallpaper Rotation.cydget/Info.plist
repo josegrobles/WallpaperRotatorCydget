@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CYConfiguration</key>
+  <dict>
+    <key>Background</key>
+    <string>Background.html</string>
+    <key>Homepage</key>
+    <string>BytaFont.html</string>
+    <key>MediaControls</key>
+    <string>YES</string>
+    <key>NotificationList</key>
+    <string>YES</string>
+    <key>Scrollable</key>
+    <string>NO</string>
+  </dict>
+  <key>CYPlugin</key>
+  <string>WebCycriptLockScreen</string>
+  <key>CYTagline</key>
+  <string>Bytafont + Wallpaper Rotation</string>
+</dict>
+</plist>
