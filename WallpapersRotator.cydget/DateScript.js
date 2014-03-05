@@ -31,4 +31,4 @@ if(minutesLength==1){
 }
 else{}
 document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:HelveticaNeue-UltraLight;font-size:85px;">' + hour + ':' + minutes + '</p>');
-document.write('<p style="width:100%;margin-top:-90px;text-align:center;color:white;font-family:HelveticaNeue-Light;font-size:18px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');
+document.write('<p style="width:100%;margin-top:-95px;text-align:center;color:white;font-family:HelveticaNeue-Light;font-size:18px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');
