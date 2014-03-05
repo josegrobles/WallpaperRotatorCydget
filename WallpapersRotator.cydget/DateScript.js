@@ -25,5 +25,10 @@ month[9]="October";
 month[10]="November";
 month[11]="December";
 var monthToday = month[d.getMonth()];
-document.write('<p style="width:100%;margin-top:35px;text-align:center;color:white;font-family:HelveticaNeue-UltraLight;font-size:80px;">' + hour + ':' + minutes + '</p>');
-document.write('<p style="width:100%;margin-top:-90px;text-align:center;color:white;font-family:HelveticaNeue-Light;font-size:25px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');
+var minutesLength = minutes.toString().length;
+if(minutesLength==1){
+	var minutes = '0' + minutes;
+}
+else{}
+document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:HelveticaNeue-UltraLight;font-size:85px;">' + hour + ':' + minutes + '</p>');
+document.write('<p style="width:100%;margin-top:-90px;text-align:center;color:white;font-family:HelveticaNeue-Light;font-size:18px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');
