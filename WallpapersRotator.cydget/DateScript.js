@@ -1,7 +1,7 @@
 var d = new Date();
 var hour = d.getHours();
 var minutes = d.getMinutes();
-var dayNumber = d.getDay();
+var dayNumber = d.getDate();
 var weekday=new Array(7);
 weekday[0]="Sunday";
 weekday[1]="Monday";
