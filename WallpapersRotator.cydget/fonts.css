@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Flamenco';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Flamenco Light'), local('Flamenco-Light'), url(fonts/flamenco300.woff) format('woff');
+}
