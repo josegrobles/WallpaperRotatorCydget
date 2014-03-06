@@ -31,11 +31,11 @@ if(minutesLength==1){
 }
 else{}
 if(hour>=0 && hour<=9){
-document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:HelveticaNeue-UltraLight;font-size:85px;"><a style="letter-spacing:-2px;position:relative">' + hour + '</a><a style="font-family:Flamenco;bottom:14px;position:relative;">:</a>' + minutes + '</p>');
-document.write('<p style="width:100%;margin-top:-95px;text-align:center;color:white;font-family:HelveticaNeue-Light;font-size:18px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');}
+document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:' + font1 + ';font-size:85px;"><a style="letter-spacing:-2px;position:relative">' + hour + '</a><a style="font-family:Flamenco;bottom:14px;position:relative;">:</a>' + minutes + '</p>');
+document.write('<p style="width:100%;margin-top:-95px;text-align:center;color:white;font-family:' + font2 + ';font-size:18px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');}
 else if(hour>=10 && hour<=19){
-document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:HelveticaNeue-UltraLight;font-size:85px;"><a style="letter-spacing:-5px;position:relative;margin-right:5px;">' + hour + '</a><a style="font-family:Flamenco;bottom:14px;position:relative;">:</a>' + minutes + '</p>');
-document.write('<p style="width:100%;margin-top:-95px;text-align:center;color:white;font-family:HelveticaNeue-Light;font-size:18px;left:3px;position:relative">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');}
+document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:' + font1 + ';font-size:85px;"><a style="letter-spacing:-5px;position:relative;margin-right:5px;">' + hour + '</a><a style="font-family:Flamenco;bottom:14px;position:relative;">:</a>' + minutes + '</p>');
+document.write('<p style="width:100%;margin-top:-95px;text-align:center;color:white;font-family:' + font2 + ';font-size:18px;left:3px;position:relative">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');}
 else{
-document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:HelveticaNeue-UltraLight;font-size:85px;"><a style="letter-spacing:-2px;position:relative">' + hour + '</a><a style="font-family:Flamenco;bottom:14px;position:relative;">:</a>' + minutes + '</p>');
-document.write('<p style="width:100%;margin-top:-95px;text-align:center;color:white;font-family:HelveticaNeue-Light;font-size:18px;position:relative;right:2px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');}
+document.write('<p style="width:100%;margin-top:28px;text-align:center;color:white;font-family:' + font1 + ';font-size:85px;"><a style="letter-spacing:-2px;position:relative">' + hour + '</a><a style="font-family:Flamenco;bottom:14px;position:relative;">:</a>' + minutes + '</p>');
+document.write('<p style="width:100%;margin-top:-95px;text-align:center;color:white;font-family:' + font2 + ';font-size:18px;position:relative;right:2px;">' + day + ' ' + dayNumber + ' ' + monthToday + '</p>');} 
