@@ -1,6 +1,7 @@
 var d = new Date();
 var h = d.getHours();
 //BACKGROUNDS
+if(randomizer==0){
 if(h==0){
 wallpaper(background0);
 }else if(h==1){
@@ -49,6 +50,15 @@ wallpaper(background21);
 wallpaper(background22);
 }else{
 wallpaper(background23);
+console.log(background23);
+}}
+else if(randomizer==1){
+var random = Math.random();
+var multiply = random*24;
+var floor = Math.floor(multiply);
+var backgroundNumber = "img/wallpaper" + floor + ".jpg";
+wallpaper(backgroundNumber);
+console.log(backgroundNumber);
 }
 //SET BACKGROUND
 function wallpaper(link){
