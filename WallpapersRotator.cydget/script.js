@@ -2,53 +2,53 @@ var d = new Date();
 var h = d.getHours();
 //BACKGROUNDS
 if(h==0){
-wallpaper('img/wallpaper0.jpg');
+wallpaper(background0);
 }else if(h==1){
-wallpaper('img/wallpaper1.jpg');
+wallpaper(background1);
 }else if(h==2){
-wallpaper('img/wallpaper2.jpg');
+wallpaper(background2);
 }else if(h==3){
-wallpaper('img/wallpaper3.jpg');
+wallpaper(background3);
 }else if(h==4){
-wallpaper('img/wallpaper4.jpg');
+wallpaper(background4);
 }else if(h==5){
-wallpaper('img/wallpaper5.jpg');
+wallpaper(background5);
 }else if(h==6){
-wallpaper('img/wallpaper6.jpg');
+wallpaper(background6);
 }else if(h==7){
-wallpaper('img/wallpaper7.jpg');
+wallpaper(background7);
 }else if(h==8){
-wallpaper('img/wallpaper8.jpg');
+wallpaper(background8);
 }else if(h==9){
-wallpaper('img/wallpaper9.jpg');
+wallpaper(background9);
 }else if(h==10){
-wallpaper('img/wallpaper10.jpg');
+wallpaper(background10);
 }else if(h==11){
-wallpaper('img/wallpaper11.jpg');
+wallpaper(background11);
 }else if(h==12){
-wallpaper('img/wallpaper12.jpg');
+wallpaper(background12);
 }else if(h==13){
-wallpaper('img/wallpaper13.jpg');
+wallpaper(background13);
 }else if(h==14){
-wallpaper('img/wallpaper14.jpg');
+wallpaper(background14);
 }else if(h==15){
-wallpaper('img/wallpaper15.jpg');
+wallpaper(background15);
 }else if(h==16){
-wallpaper('img/wallpaper16.jpg');
+wallpaper(background16);
 }else if(h==17){
-wallpaper('img/wallpaper17.jpg');
+wallpaper(background17);
 }else if(h==18){
-wallpaper('img/wallpaper18.jpg');
+wallpaper(background18);
 }else if(h==19){
-wallpaper('img/wallpaper19.jpg');
+wallpaper(background19);
 }else if(h==20){
-wallpaper('img/wallpaper20.jpg');
+wallpaper(background20);
 }else if(h==21){
-wallpaper('img/wallpaper21.jpg');
+wallpaper(background21);
 }else if(h==22){
-wallpaper('img/wallpaper22.jpg');
+wallpaper(background22);
 }else{
-wallpaper('img/wallpaper23.jpg');
+wallpaper(background23);
 }
 //SET BACKGROUND
 function wallpaper(link){
