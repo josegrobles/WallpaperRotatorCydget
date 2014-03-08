@@ -7,4 +7,5 @@ CYConfiguration = {
     Homepage = "index.html";
     Background = "Background.html";
     Scrollable = NO;
+    NotificationList = YES;
 };
