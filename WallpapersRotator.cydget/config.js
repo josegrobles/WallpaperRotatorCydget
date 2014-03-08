@@ -5,8 +5,10 @@ var font1 = "HelveticaNeue-UltraLight";
 var font2 = "HelveticaNeue-Light";
 //DATE MODE DISPLAY 0 = 12 ; 1 = 24
 var TimeDisplay = "1";
-//RANDOMIZER 1=YES 0=NO
+//RANDOMIZER 0 = NO 1 = YES 2 = STATIC
 var randomizer = "0";
+//IF STATIC IS ENABLED SELECT YOUR WALLPAPER DOWN HERE
+var StaticBackground = "img/wallpaper0.jpg"
 //BACKGROUND URL
 var background0 = "img/wallpaper0.jpg";
 var background1 = "img/wallpaper1.jpg";
@@ -32,4 +34,3 @@ var background20 = "img/wallpaper20.jpg";
 var background21 = "img/wallpaper21.jpg";
 var background22 = "img/wallpaper22.jpg";
 var background23 = "img/wallpaper23.jpg";
-

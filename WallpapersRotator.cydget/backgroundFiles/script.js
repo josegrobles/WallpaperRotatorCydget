@@ -60,6 +60,13 @@ var backgroundNumber = "img/wallpaper" + floor + ".jpg";
 wallpaper(backgroundNumber);
 console.log(backgroundNumber);
 }
+else if(randomizer==2){
+wallpaper(StaticBackground);
+console.log(StaticBackground);
+}
+else{
+console.log("Wrong Selection");	
+}
 //SET BACKGROUND
 function wallpaper(link){
 document.getElementById("background").style.background = "url('"+link+"')";}
