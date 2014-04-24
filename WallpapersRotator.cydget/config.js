@@ -8,7 +8,7 @@ var TimeDisplay = "1";
 //RANDOMIZER 0 = NO 1 = YES 2 = STATIC
 var randomizer = "0";
 //IF STATIC IS ENABLED SELECT YOUR WALLPAPER DOWN HERE
-var StaticBackground = "img/wallpaper0.jpg"
+var StaticBackground = "img/iphone.gif"
 //BACKGROUND URL
 var background0 = "img/wallpaper0.jpg";
 var background1 = "img/wallpaper1.jpg";
